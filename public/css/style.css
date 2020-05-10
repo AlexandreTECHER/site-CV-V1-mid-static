@@ -1,0 +1,694 @@
+*:not(.fab) {
+    font-family: 'sans-serif';
+}
+
+/* Delete containers useless paddings */
+.padding-suppr {
+    padding: 0;
+}
+
+.md-skills-page {
+    display: none;
+}
+
+/* -------------- icons configuration ---------------- */
+.fab.fa-linkedin-in,
+.fab.fa-github,
+.fab-cv {
+    color: #fff;
+    font-size: 1.375rem;
+    background: #343a40;
+    border-radius: 50%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.fab:hover, .fab-cv:hover {
+    color: #343a40;
+    background: #fff;
+    text-decoration: none;
+}
+
+.fab-cv {
+    font-size: 1.075rem;
+    font-weight: bold;
+    padding: 0.42rem 0.29rem;
+    line-height: initial;
+}
+
+.fab.fa-linkedin-in {
+    padding: 0.37rem 0.47rem;
+}
+
+.fab.fa-github {
+    padding: 0.370rem 0.40rem;
+}
+
+.fas,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fas.fa-cog {
+    color: #fff;
+    font-size: 1.475rem;
+}
+
+/* ------------- portfolio icon ---------- */
+.fas.fa-code {
+    color: #fff;
+    font-size: 1.415rem;
+}
+
+/* ------ education icon ---------- */
+.fas.fa-graduation-cap {
+    color: #fff;
+    font-size: 1.475rem;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.far.fa-id-card {
+    color: #fff;
+    font-size: 1.415rem;
+}
+
+.fas.fa-envelope {
+    color: #fff;
+    font-size: 1.475rem;
+}
+
+/* ----------- icons form configuration ----------- */
+.fas.fa-user-tie{
+    padding: 0.34rem 0.379rem;
+}
+
+.fas.fa-calendar-alt{
+    padding: 0.37rem 0.41rem;
+}
+
+.fas.fa-map-marker-alt{
+    padding: 0.37rem 0.47rem;
+}
+
+.fas.fa-mobile-alt{
+    padding: 0.34rem 0.54rem;
+}
+
+.far.fa-envelope{
+    padding: 0.34rem 0.36rem;
+}
+.fas.fa-calendar-alt,
+.fas.fa-map-marker-alt,
+.fas.fa-mobile-alt,
+.far.fa-envelope,
+.fas.fa-user-tie {
+    color: #fff;
+    background: #ff4500;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-right: 0.438rem;
+}
+
+/* ----------------------------------------------- Mobile version --------------------------------------------- */
+
+
+/* ----------------------------- Nav mobile version -------------------------------- */
+.nav-mobile {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding: 0.938rem;
+}
+
+.navbar-toggler {
+    background: #343a40;
+}
+
+.navbar-collapse {
+    background: #343a40;
+    padding: 0 0.938rem;
+}
+
+.bg-light {
+    background: transparent !important;
+}
+
+.nav-md {
+    display: none;
+}
+
+/* ------------- Top Orange block : presentation, 320px version --------------- */
+.presentation {
+    background-image: url('../images/background.jpg');
+    background-color: #1d1e22;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.presentation__container {
+    margin: 10px 0;
+}
+
+/* ------------- Presentation picture settings ---------------*/
+.myself {
+    max-width: 10rem;
+}
+
+.presentation__main-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.presentation__subtitle {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* ------- Links setting for LinkedIn and Github --------*/
+.presentation__list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.presentation__list--link {
+    padding: 0.25rem;
+}
+
+/* ---------------------- Mobile Content------------------------- */
+
+.mobile-content {
+    background: #272b30;
+}
+
+/* ------------------ Skills part ---------------- */
+
+/* ------- Title config ------- */
+.skills-title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.938rem 0 0 0;
+}
+
+.portfolio-title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.938rem 0;
+}
+
+.skills-title__icon {
+    background: #ff4500;
+    padding: 0.38rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.portfolio-title__icon {
+    background: #ff4500;
+    padding: 0.37rem 0.24rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.skills-title__competences,
+.portfolio-title__sub,
+.education-title__sub,
+.experience-title__sub,
+.contact-title__sub {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 0.938rem;
+}
+
+/* -------------------- skills blocks config ----------------- */
+.section {
+    color: #fff;
+    margin: 0.938rem 0;
+    background: #384049;
+    margin: 0.938rem;
+    flex: initial;
+    min-height: 25vh;
+    padding: 0.938rem;
+    box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
+}
+
+.section .space {
+    margin: 0.625rem 0;
+}
+
+.section__title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.section p {
+    margin: 0.625rem 0;
+}
+
+.section__myBar {
+    width: 1%;
+    height: 0.313rem;
+    border-radius: 0.125rem;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    -ms-border-radius: 0.125rem;
+    -o-border-radius: 0.125rem;
+}
+
+/* -------------- Developement progress bar -------------- */
+.section__html .section__myBar.active {
+    width: 95%;
+    background: #4cb050;
+}
+
+.section__css .section__myBar.active {
+    width: 95%;
+    background: #8bc24a;
+}
+
+.section__js .section__myBar.active {
+    width: 80%;
+    background: #ff9700;
+}
+
+.section__php .section__myBar.active {
+    width: 80%;
+    background: #ff7800;
+}
+
+.section__sql .section__myBar.active {
+    width: 70%;
+    background: #fe5722;
+}
+
+/* ------------- Framework progress bar -------------- */
+.section__symfo .section__myBar.active {
+    width: 85%;
+    background: #4cb050;
+}
+
+.section__bstrap .section__myBar.active {
+    width: 85%;
+    background: #8bc24a;
+}
+
+.section__Jquery .section__myBar.active {
+    width: 75%;
+    background: #ff9700;
+}
+
+.section__sass .section__myBar.active {
+    width: 55%;
+    background: #fe5722;
+}
+
+.section__react .section__myBar.active {
+    width: 20%;
+    background: #f35525;
+}
+
+.section__lumen .section__myBar.active {
+    width: 20%;
+    background: #ff3c01;
+}
+
+/* ------------- CMS progress bar -------------- */
+.section__wp .section__myBar.active {
+    width: 70%;
+    background: #4cb050;
+}
+
+.section__joomla .section__myBar.active {
+    width: 55%;
+    background: #ff3c01;
+}
+
+/* ------------- Logiciels progress bar -------------- */
+.section__compo .section__myBar.active {
+    width: 80%;
+    background: #4cb050;
+}
+
+.section__vsc .section__myBar.active {
+    width: 90%;
+    background: #ff9700;
+}
+
+.section__git .section__myBar.active {
+    width: 55%;
+    background: #ff3c01;
+}
+
+/* ------------- PAO progress bar -------------- */
+.section__ps .section__myBar.active {
+    width: 55%;
+    background: #4cb050;
+}
+
+.section__is .section__myBar.active {
+    width: 55%;
+    background: #ff9700;
+}
+
+.section__infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__percent span {
+    font-size: 0.7em;
+}
+
+.section__tool {
+    font-size: smaller;
+}
+
+.myBar.active {
+    width: 100%;
+}
+
+/*  -------------------------------------------- Portfolio Part ----------------------------------------- */
+
+
+/* ------------------ carousel configuration --------------- */
+
+.carousel {
+    box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
+}
+
+.carousel-portfolio {
+    margin-bottom: 0.938rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* ----------- carrousel arrows --------- */
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    padding: 1.125rem 0;
+    z-index: 1;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* ----------- carrousel modals ------------ */
+.modal-backdrop {
+    z-index: 9;
+}
+
+.modal-body__description,
+.modal-body__technos p,
+.modal-title {
+    color: #000;
+    text-align: left;
+}
+
+.modal-body__technos,
+.modal-body__technos p {
+    margin: 0.938rem 0;
+}
+
+.modal-title,
+.modal-body__technos p {
+    font-weight: bold;
+}
+
+.modal-body__technos img {
+    max-width: 15%;
+}
+
+.modal-body__technos-pics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* -------------------------------- Education part ---------------------------------- */
+
+/* ------ education title ---------- */
+.education-title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.938rem 0;
+}
+
+.education-title__icon {
+    background: #ff4500;
+    padding: 0.39rem 0.24rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.school-block {
+    margin: 0 0 15px 0;
+    background: #384049;
+    box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
+}
+
+.test::after {
+    content: '';
+    width: 0;
+    height: 98%;
+    position: absolute;
+    border: 1px solid #8e8e8e;
+    top: 10px;
+    left: 1.469rem;
+
+}
+
+.school__infos {
+    padding-left: 5px;
+}
+
+.school__title {
+    margin: 16px 0 7px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ff4500;
+}
+
+.school-block__round {
+    border: 3px #ff4500 solid;
+    background: #384049;
+    border-radius: 50%;
+    margin: 10px 0;
+    height: 1.2rem;
+    top: 5px;
+    position: absolute;
+    padding: 0 7px;
+    z-index: 9;
+}
+
+.school__date {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff4500;
+}
+
+.school__diploma {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.school__date,
+.school__diploma {
+    padding: 0;
+}
+
+.school__infos {
+    color: #fff;
+    font-size: 14px;
+}
+
+.school__teached {
+    margin-bottom: 15px;
+}
+
+.school__teached--infos {
+    font-style: italic;
+}
+
+/* ------------------------------ XP Part ----------------------------------------- */
+
+
+.experience-title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.938rem 0;
+}
+
+.experience-title__icon {
+    background: #ff4500;
+    padding: 0.43rem 0.36rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ----------------------------------- Contact part ----------------------------------- */
+.contact-title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.938rem 0;
+}
+
+.contact-title__icon {
+    background: #ff4500;
+    padding: 0.41rem 0.40rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+/* ---------------- form configuration ------------------ */
+.form-block {
+    margin: 0 0 15px 0;
+    background: #384049;
+    box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
+}
+
+.informations{
+    display: flex;
+    align-items: center;
+    margin: 0.938rem 0;
+    color: #fff;
+}
+
+.informations__title{
+    font-weight: bold;
+}
+
+.informations p{
+    font-size: 0.875rem;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    border-radius: 11px;
+    padding: 8px;
+    background: #272b30;
+    border-style: inherit;
+    -webkit-box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
+    margin: 15px 0;
+    color: #fff;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button__submit {
+    -webkit-appearance: button;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: inherit;
+    background: #ff4500;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* ----------------------------------------------- End Mobile version --------------------------------------------- */
+
+@media (min-width: 768px) {
+    .mobile-content {
+        display: none;
+    }
+
+    .md-skills-page {
+        display: inline-block;
+        background: #272b30;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-md {
+        display: inline-block;
+    }
+
+    .nav-md__links {
+        background: #1d1e22;
+        color: #fff !important;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

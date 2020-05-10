@@ -1,0 +1,367 @@
+<!DOCTYPE html lang=fr>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Site CV | Alexandre TECHER</title>
+    <meta name="description" content="Alexandre TECHER | Développeur - Intégrateur web sur Lyon.">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112612227-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112612227-1');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="image/logo-smart.png" alt="logo">
+        </div>
+        <img class="img_menu" src="image/menu.png" alt="">
+        <nav>
+            <ul class="menu">
+                <li><a href="#index">Accueil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div class="first">
+
+        <div class="img">
+            <img src="/image/moi.jpg" alt="alexandre-techer">
+        </div>
+        <div class="intro">
+            <h1 id="index">ALEXANDRE TECHER</h1>
+            <h2>DEVELOPPEUR FRONT-END / INTEGRATEUR</h2>
+        </div>
+        <div class="img-smart">
+            <img src="/image/moi-smart.jpg" alt="alexandre-techer-smart">
+        </div>
+    </div>
+    <div class="second">
+        <h2 id="apropos">A PROPOS</h2>
+        <p>Je m’appelle Alexandre TECHER, je suis actuellement à la recherche d'une entreprise accueillant un
+            développeur web en contrat de professionnalisation dans la région Rhône-Alpes</p>
+
+        <p>De manière autodidacte puis, par le biais d'une formation Webmaster au sein du lycée Saliège de Balma (31),
+            j'ai appris à travailler avec les différents outils du web permettant de développer un site. Par la suite,
+            un stage en tant que développeur front-end / intégrateur dans une agence web me donna l'occasion de mettre à
+            profit mon apprentissage et consolider mon envie de faire carrière dans ce milieu.</p>
+
+        <p>Passionné par l'univers du web et ses langages, apprendre, comprendre et manipuler les différents outils est
+            devenu avec le temps un objectif me permettant de répondre aux éxigences des normes Internet.</p>
+    </div>
+    <div class="thirdtwo">
+
+        <div class="right">
+
+            <div class="thirdone">
+                <h2 id="portfolio">PORTFOLIO</h2>
+            </div>
+
+            <div class="class">
+
+                <div class="third">
+                    <div class="pics1 space">
+                        <a href="https://www.webmaster-online.fr/" target="_blank">
+                            <img src="image/wol.jpg" alt="webmaster-online">
+                            <div class="centrage">
+                                <p>Webmaster Online</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="pics2 space">
+                        <img src="image/stuff.jpg" alt="stuff-transport">
+                        <a href="https://www.stuff-transport.com/" target="_blank">
+                            <div class="centrage">
+                                <p>Stuff Transport</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="pics3 space">
+                        <img src="images/pylotsales.jpg" alt="pylotsales">
+                        <a href="https://pylotsales.com/" target="_blank">
+                            <div class="centrage">
+                                <p>Pylotsales</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="pics4 space">
+                        <img src="image/sr.jpg" alt="sr-patrimoine">
+                        <a href="https://www.srpatrimoine.fr/" target="_blank">
+                            <div class="centrage">
+                                <p>SR Patrimoine</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="pics5 space">
+                        <img src="image/mk.jpg" alt="mk-energies">
+                        <a href="https://www.mk-energie.fr/" target="_blank">
+                            <div class="centrage">
+                                <p>Mk Energie</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="pics5 space">
+                        <img src="images-carrousel/solary.jpg" alt="solarysys">
+                        <a href="http://www.solarysys.fr/" target="_blank">
+                            <div class="centrage">
+                                <p>SolarySys</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Class pour le carrousel -->
+
+            <div class="container-carrousel">
+
+                <div id="carrousel-init">
+
+                    <div class="slideshow">
+                        <ul class="slider">
+                            <li>
+                                <a href="https://www.mk-energie.fr/" target="_blank"><img src="images-carrousel/mk.jpg"
+                                        alt="">
+                                    <section class="caption">
+                                        <h3>MK Energies</h3>
+                                    </section>
+                                </a>
+
+                            </li>
+
+                            <li><a href="https://www.srpatrimoine.fr/" target="_blank"><img
+                                        src="images-carrousel/SR.jpg" alt="photo-sr-patrimoine">
+                                    <section class="caption">
+                                        <h3>SR Patrimoine</h3>
+                                    </section>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="https://pylotsales.com/" target="_blank"><img
+                                        src="images-carrousel/pylotsales.jpg" alt="photo-pylotsales">
+                                    <section class="caption">
+                                        <h3>Pylotsales</h3>
+                                    </section>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.webmaster-online.fr/" target="_blank"><img
+                                        src="images-carrousel/wol.jpg" alt="photo-webmaster-online">
+                                    <section class="caption">
+                                        <h3>Webmaster Online</h3>
+                                    </section>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.stuff-transport.com/" target="_blank"><img
+                                        src="images-carrousel/stuff.jpg" alt="photo-stuff-transport">
+                                    <section class="caption">
+                                        <h3>Stuff Transport</h3>
+                                    </section>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.solarysys.fr/" target="_blank"><img
+                                        src="images-carrousel/solary.jpg" alt="photo-solary">
+                                    <section class="caption">
+                                        <h3>SolarySys</h3>
+                                    </section>
+                                </a>
+                            </li>
+                        </ul>
+                        <ol class="pagination">
+
+                        </ol>
+
+                        <div class="left-arrow">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+
+                        <div class="right-arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Fin de Class pour le carrousel -->
+
+        <div class="left">
+            <img src="image/create.jpg" alt="portofolio">
+        </div>
+    </div>
+
+    <div class="fourth">
+        <div class="left-fourth">
+            <img src="image/skill.jpg" alt="COMPETENCES">
+        </div>
+        <div class="class1">
+            <div class="fourthone">
+                <h2 id="competences">COMPETENCES</h2>
+            </div>
+
+            <div class="web_skills">
+                <div class="front_skills">
+                    <div class="first_class">
+                        <ul>
+                            <li>
+                                <h3>HTML/CSS</h3>
+                                <span class="bar"><span class="html"></span></span>
+                            </li>
+                            <li>
+                                <h3>Javascript</h3>
+                                <span class="bar"><span class="js"></span></span>
+                            </li>
+                            <li>
+                                <h3>JQuery</h3>
+                                <span class="bar"><span class="jquery"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second_class">
+                        <ul>
+                            <li>
+                                <h3>Bootstrap</h3>
+                                <span class="bar"><span class="bootstrap"></span></span>
+                            </li>
+                            <li>
+                                <h3>SASS</h3>
+                                <span class="bar"><span class="sass"></span></span>
+                            </li>
+                            <li>
+                                <h3>ReactJS</h3>
+                                <span class="bar"><span class="react"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cms">
+                    <ul>
+                        <li>
+                            <h3>Wordpress</h3>
+                            <span class="bar"><span class="WP"></span></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="graphisme">
+                    <ul>
+                        <li>
+                            <h3>Photoshop</h3>
+                            <span class="bar"><span class="ps"></span></span>
+                        </li>
+                        <li>
+                            <h3>Illustrator</h3>
+                            <span class="bar"><span class="illustrator"></span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fifth">
+        <div class="left-fourth">
+            <img src="image/email.jpg" alt="contact">
+            <img src="image/email-high.jpg" class="img-high" alt="contact">
+        </div>
+        <div class="class2">
+            <div class="fifthone">
+                <h2 id="contact">CONTACT</h2>
+            </div>
+
+            <div class="formulaire">
+                <form method="post" action="mail.php">
+
+                    <div id="part1">
+                        <p>
+                            <input type="text" name="name" id="nom" placeholder="Nom" required />
+                        </p>
+                        <p>
+                            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required />
+                        </p>
+                        <p>
+                            <input type="text" name="objet" id="objet" placeholder="Objet" required />
+                        </p>
+                        <p>
+                            <input type="email" name="email" id="mail" placeholder="Mail" required />
+                        </p>
+                    </div>
+
+                    <div id="part2">
+                        <textarea name="mail" class="mail1" placeholder="Message" rows="10" cols="40"
+                            required></textarea>
+                    </div>
+
+                    <div id="part3">
+                        <input type="submit" value="Envoyer" id="envoyer" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div id="cv">
+            <a href="Alexandre_TECHER_CV.pdf" target="_blank">
+                <p>CV</p>
+            </a>
+        </div>
+
+
+        <div id="structure">
+            <p><a href="mentions.html">CREDITS ET MENTIONS LEGALES</a></p>
+
+        </div>
+
+        <ul>
+            <li>
+                <a href="mailto:alexandre.techer@protonmail.com"><img src="image/envelope.png" alt="contact"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/alexandre-techer-946747153/" target="_blank"><img
+                        src="image/linkedin.png" alt="linkedin"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
