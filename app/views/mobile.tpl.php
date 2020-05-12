@@ -3,7 +3,7 @@
         <div class="col-12">
             <div class="skills-title">
                 <p class="skills-title__icon"><i class="fas fa-cog"></i></p>
-                <h3 class="skills-title__competences">COMPETENCES</h3>
+                <h3 id="competences" class="skills-title__competences">COMPETENCES</h3>
             </div>
             <div class="row">
                 <div class="col-12 section">
@@ -155,7 +155,7 @@
         <div class="col-12">
             <div class="portfolio-title">
                 <p class="portfolio-title__icon"><i class="fas fa-code"></i></p>
-                <h3 class="portfolio-title__sub">PORTFOLIO</h3>
+                <h3 id="portfolio" class="portfolio-title__sub">PORTFOLIO</h3>
             </div>
             <div class="row">
                 <div class="col-12 carousel-portfolio">
@@ -383,7 +383,7 @@
         <div class="col-12">
             <div class="education-title">
                 <p class="education-title__icon"><i class="fas fa-graduation-cap"></i></p>
-                <h3 class="education-title__sub">DIPLÔMES</h3>
+                <h3 id="diplomes" class="education-title__sub">DIPLÔMES</h3>
             </div>
 
             <div class="row school-block">
@@ -501,10 +501,12 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="col-12">
             <div class="experience-title">
                 <p class="experience-title__icon"><i class="far fa-id-card"></i></i></p>
-                <h3 class="experience-title__sub">Expérience</h3>
+                <h3 id="experiences" class="experience-title__sub">EXPERIENCES</h3>
             </div>
 
             <div class="row school-block">
@@ -632,7 +634,7 @@
         <div class="col-12">
             <div class="contact-title">
                 <p class="contact-title__icon"><i class="fas fa-envelope"></i></p>
-                <h3 class="contact-title__sub">CONTACT</h3>
+                <h3 id="contact" class="contact-title__sub">CONTACT</h3>
             </div>
             <div class="row form-block">
                 <div class="col-12">
@@ -658,7 +660,7 @@
                                             <p><span class="informations__title">Téléphone: </span>07 86 91 52 90</p>
                                         </div>
                                         <div class="informations">
-                                        <i class="far fa-envelope"></i>
+                                            <i class="far fa-envelope"></i>
                                             <p><span class="informations__title">Email: </span>alexandre.techer@protonmail.com</p>
                                         </div>
                                     </div>
@@ -689,6 +691,5 @@
                 </div>
             </div>
         </div>
-
-
+        <a href="#top"><i class="fas fa-sort-up"></i></a>
     </div>

@@ -18,6 +18,46 @@
         'homepage-accueil'
     );
 
+    $router->map(
+        'GET',
+        '/experience',
+        [
+            'method' => 'experience',
+            'controller' => 'MainController'
+        ],
+        'experience-page'
+    );
+
+    $router->map(
+        'GET',
+        '/portfolio',
+        [
+            'method' => 'portfolio',
+            'controller' => 'MainController'
+        ],
+        'portfolio-page'
+    );
+    
+    $router->map(
+        'GET',
+        '/diplome',
+        [
+            'method' => 'diplome',
+            'controller' => 'MainController'
+        ],
+        'diplome-page'
+    );
+
+    $router->map(
+        'GET',
+        '/contact',
+        [
+            'method' => 'contact',
+            'controller' => 'MainController'
+        ],
+        'contact-page'
+    );
+
     $match = $router->match();
 
     if($match === false){

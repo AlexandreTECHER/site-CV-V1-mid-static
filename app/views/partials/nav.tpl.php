@@ -7,21 +7,22 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                <a class="nav-item nav-link active" href="#competences">Competences <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#diplomes">Diplômes</a>
+                <a class="nav-item nav-link" href="#experiences">Expériences</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
 </div>
 
-<div class="col-md-12 nav-md">
+<div class="col-sm-12 nav-md">
     <div class="row">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6 nav-md__links">
-                    <h3>SKILLS</h3>
+                    <h3>COMPETENCES</h3>
                 </div>
                 <div class="col-md-6 nav-md__links">
                     <h3>EXPERIENCES</h3>

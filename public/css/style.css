@@ -1,4 +1,8 @@
-*:not(.fab) {
+html {
+    scroll-behavior: smooth;
+}
+
+body:not(.fab) {
     font-family: 'sans-serif';
 }
 
@@ -7,8 +11,29 @@
     padding: 0;
 }
 
-.md-skills-page {
+.md-container-page {
     display: none;
+}
+
+#message {
+    display: none;
+}
+
+/* ----------- upButton configuration ------------ */
+
+.fas.fa-sort-up {
+    padding: 2px;
+    position: fixed;
+    font-size: 3.5em;
+    background: #ff4500;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+    opacity: 0;
 }
 
 /* -------------- icons configuration ---------------- */
@@ -26,11 +51,20 @@
     -o-transition: 0.3s;
 }
 
-.fab:hover, .fab-cv:hover {
-    color: #343a40;
-    background: #fff;
-    text-decoration: none;
+.fas.fa-paper-plane {
+    color: #fff;
+    background: #343a40;
+    border-radius: 50%;
+    padding: 7px 10px 9px 7px;
+    font-size: 18px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
+
+
 
 .fab-cv {
     font-size: 1.075rem;
@@ -40,17 +74,34 @@
 }
 
 .fab.fa-linkedin-in {
-    padding: 0.37rem 0.47rem;
+    padding: 6px 8px 7px 8px;
 }
 
+.far.fa-address-card {
+    color: #fff;
+    background: #343a40;
+    border-radius: 50%;
+    padding: 8px 8px 8px 7px;
+    font-size: 18px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.fab:hover,
+.fab-cv:hover,
+.fas:hover,
+.far:hover {
+    color: #343a40;
+    background: #fff;
+    text-decoration: none;
+}
 .fab.fa-github {
-    padding: 0.370rem 0.40rem;
+    padding: 0.418rem 0.449rem;
 }
 
-.fas,
-.fas {
-    font-family: "Font Awesome 5 Free";
-}
+
 
 .fas.fa-cog {
     color: #fff;
@@ -69,9 +120,6 @@
     font-size: 1.475rem;
 }
 
-.far {
-    font-family: "Font Awesome 5 Free" !important;
-}
 
 .far.fa-id-card {
     color: #fff;
@@ -84,25 +132,26 @@
 }
 
 /* ----------- icons form configuration ----------- */
-.fas.fa-user-tie{
+.fas.fa-user-tie {
     padding: 0.34rem 0.379rem;
 }
 
-.fas.fa-calendar-alt{
+.fas.fa-calendar-alt {
     padding: 0.37rem 0.41rem;
 }
 
-.fas.fa-map-marker-alt{
+.fas.fa-map-marker-alt {
     padding: 0.37rem 0.47rem;
 }
 
-.fas.fa-mobile-alt{
+.fas.fa-mobile-alt {
     padding: 0.34rem 0.54rem;
 }
 
-.far.fa-envelope{
+.far.fa-envelope {
     padding: 0.34rem 0.36rem;
 }
+
 .fas.fa-calendar-alt,
 .fas.fa-map-marker-alt,
 .fas.fa-mobile-alt,
@@ -138,6 +187,15 @@
     padding: 0 0.938rem;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .bg-light {
     background: transparent !important;
 }
@@ -160,7 +218,7 @@
 }
 
 .presentation__container {
-    margin: 10px 0;
+    margin: 0.625rem 0;
 }
 
 /* ------------- Presentation picture settings ---------------*/
@@ -495,7 +553,7 @@
 }
 
 .school-block {
-    margin: 0 0 15px 0;
+    margin: 0 0 0.938rem 0;
     background: #384049;
     box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
 }
@@ -505,46 +563,46 @@
     width: 0;
     height: 98%;
     position: absolute;
-    border: 1px solid #8e8e8e;
-    top: 10px;
+    border: 0.063rem solid #8e8e8e;
+    top: 0.625rem;
     left: 1.469rem;
 
 }
 
 .school__infos {
-    padding-left: 5px;
+    padding-left: 0.313rem;
 }
 
 .school__title {
-    margin: 16px 0 7px;
+    margin: 1rem 0 0.438rem;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.063rem;
     color: #ff4500;
 }
 
 .school-block__round {
-    border: 3px #ff4500 solid;
+    border: 0.188rem #ff4500 solid;
     background: #384049;
     border-radius: 50%;
-    margin: 10px 0;
+    margin: 0.625rem 0;
     height: 1.2rem;
-    top: 5px;
+    top: 0.313rem;
     position: absolute;
-    padding: 0 7px;
+    padding: 0 0.438rem;
     z-index: 9;
 }
 
 .school__date {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #ff4500;
 }
 
 .school__diploma {
     color: #fff;
     font-weight: bold;
-    font-size: 14px;
-    margin: 10px 0;
+    font-size: 0.875rem;
+    margin: 0.625rem 0;
 }
 
 .school__date,
@@ -554,11 +612,11 @@
 
 .school__infos {
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .school__teached {
-    margin-bottom: 15px;
+    margin-bottom: 0.938rem;
 }
 
 .school__teached--infos {
@@ -607,41 +665,46 @@
 
 /* ---------------- form configuration ------------------ */
 .form-block {
-    margin: 0 0 15px 0;
+    margin: 0 0 0.938rem 0;
     background: #384049;
     box-shadow: 0 0 0.938rem 0.625rem rgba(0, 0, 0, 0.42);
 }
 
-.informations{
+.informations {
     display: flex;
     align-items: center;
     margin: 0.938rem 0;
     color: #fff;
 }
 
-.informations__title{
+.informations__title {
     font-weight: bold;
 }
 
-.informations p{
+.informations p {
     font-size: 0.875rem;
 }
+
 .form input,
 .form textarea {
     width: 100%;
-    border-radius: 11px;
-    padding: 8px;
+    border-radius: 0.688rem;
+    padding: 0.5rem;
     background: #272b30;
     border-style: inherit;
-    -webkit-box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75);
-    margin: 15px 0;
+    -webkit-box-shadow: inset 0 0 0.563rem 0.063rem rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0 0 0.563rem 0.063rem rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 0 0.563rem 0.063rem rgba(0, 0, 0, 0.75);
+    margin: 0.938rem 0;
     color: #fff;
+    -webkit-border-radius: 0.688rem;
+    -moz-border-radius: 0.688rem;
+    -ms-border-radius: 0.688rem;
+    -o-border-radius: 0.688rem;
 }
 
 .form textarea {
-    height: 100px;
+    height: 6.25rem;
 }
 
 .form-button {
@@ -651,32 +714,38 @@
 .form-button__submit {
     -webkit-appearance: button;
     font-weight: bold;
-    padding: 8px;
-    border-radius: 5px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     border-style: inherit;
     background: #ff4500;
     color: #fff;
-    margin-bottom: 15px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    margin-bottom: 0.938rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
 }
 
 /* ----------------------------------------------- End Mobile version --------------------------------------------- */
 
+/* ----------------------------------------------- 768px version --------------------------------------------- */
 @media (min-width: 768px) {
+
     .mobile-content {
         display: none;
     }
 
-    .md-skills-page {
+    #message {
         display: inline-block;
-        background: #272b30;
     }
 
+    /*  ---------------------- nav configuration --------------------- */
     .nav-mobile {
         display: none;
+    }
+
+    .padding-suppr {
+        position: fixed;
     }
 
     .nav-md {
@@ -690,5 +759,111 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+
+    .nav-md__links:nth-child(1)::after {
+        content: '';
+        width: 0;
+        height: 50%;
+        position: absolute;
+        border: 0.063rem solid #8e8e8e;
+        right: -0.090rem;
+        z-index: 99;
+
+    }
+
+    .nav-md__links:nth-child(2)::after {
+        content: '';
+        width: 50%;
+        height: 0;
+        position: absolute;
+        border: 0.063rem solid #8e8e8e;
+        bottom: -0.090rem;
+        z-index: 99;
+
+    }
+
+    .nav-md__links:nth-child(3)::after {
+        content: '';
+        width: 50%;
+        height: 0;
+        position: absolute;
+        border: 0.063rem solid #8e8e8e;
+        top: -0.090rem;
+        z-index: 99;
+
+    }
+
+    .nav-md__links:nth-child(4)::after {
+        content: '';
+        width: 0;
+        height: 50%;
+        position: absolute;
+        border: 0.063rem solid #8e8e8e;
+        left: -0.090rem;
+    }
+
+    .nav-md__links:hover {
+        transition: 0.5s;
+        box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .nav-md__links:hover {
+        box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        font-weight: bold;
+    }
+
+    .nav-md__links.active {
+        box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
+        font-weight: bold;
+    }
+
+    /* --------------- home block configuration ---------------- */
+    .md-container-page {
+        display: inline-block;
+        background: #272b30;
+        margin-left: 20rem;
+        height: inherit;
+    }
+
+
+
+    /* ---------- portfolio part ---------- */
+    .portfolio-title {
+        padding: 0.938rem 0 5rem;
+    }
+
+    .md-container-page.portfolio-media {
+        height: 100vh;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 43%;
+        bottom: 43%;
+    }
+
+    /* ----------- contact part ----------- */
+    .form input,
+    .form textarea {
+        border-radius: 0.938rem;
+        -webkit-border-radius: 0.938rem;
+        -moz-border-radius: 0.938rem;
+        -ms-border-radius: 0.938rem;
+        -o-border-radius: 0.938rem;
     }
 }
