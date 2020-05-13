@@ -4,6 +4,7 @@ html {
 
 body:not(.fab) {
     font-family: 'sans-serif';
+    background: #272b30;
 }
 
 /* Delete containers useless paddings */
@@ -19,19 +20,24 @@ body:not(.fab) {
     display: none;
 }
 
+.desktop {
+    display: none !important;
+}
+
 /* ----------- upButton configuration ------------ */
 
 .fas.fa-sort-up {
-    padding: 2px;
+    padding: 0.125rem;
     position: fixed;
     font-size: 3.5em;
     background: #ff4500;
     color: #fff;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    bottom: 15px;
-    right: 15px;
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 0.938rem;
+    right: 0.938rem;
+    z-index: 10;
     display: none;
     opacity: 0;
 }
@@ -55,8 +61,8 @@ body:not(.fab) {
     color: #fff;
     background: #343a40;
     border-radius: 50%;
-    padding: 7px 10px 9px 7px;
-    font-size: 18px;
+    padding: 0.498rem 0.625rem 0.563rem 0.498rem;
+    font-size: 1.125rem;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -74,21 +80,22 @@ body:not(.fab) {
 }
 
 .fab.fa-linkedin-in {
-    padding: 6px 8px 7px 8px;
+    padding: 0.375rem 0.5rem 0.438rem 0.5rem;
 }
 
 .far.fa-address-card {
     color: #fff;
     background: #343a40;
     border-radius: 50%;
-    padding: 8px 8px 8px 7px;
-    font-size: 18px;
+    padding: 0.5rem 0.5rem 0.58rem 0.438rem;
+    font-size: 1.125rem;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
+
 .fab:hover,
 .fab-cv:hover,
 .fas:hover,
@@ -97,6 +104,7 @@ body:not(.fab) {
     background: #fff;
     text-decoration: none;
 }
+
 .fab.fa-github {
     padding: 0.418rem 0.449rem;
 }
@@ -251,10 +259,6 @@ body:not(.fab) {
 }
 
 /* ---------------------- Mobile Content------------------------- */
-
-.mobile-content {
-    background: #272b30;
-}
 
 /* ------------------ Skills part ---------------- */
 
@@ -759,11 +763,11 @@ body:not(.fab) {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
     }
 
     .nav-md__links:nth-child(1)::after {
@@ -809,7 +813,7 @@ body:not(.fab) {
     }
 
     .nav-md__links:hover {
-        transition: 0.5s;
+        text-decoration: none;
         box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
         -moz-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
@@ -818,6 +822,7 @@ body:not(.fab) {
         -ms-transition: 0.5s;
         -o-transition: 0.5s;
     }
+
     .nav-md__links:hover {
         box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: inset 0 0 3.25rem 0 rgba(0, 0, 0, 0.75);
@@ -835,12 +840,56 @@ body:not(.fab) {
     /* --------------- home block configuration ---------------- */
     .md-container-page {
         display: inline-block;
-        background: #272b30;
-        margin-left: 20rem;
+        margin-left: 41.7%;
         height: inherit;
     }
 
+    /* ----- experience configuration ----- */
+    .block-margin {
+        padding: 0 5% 5% 5%;
+    }
 
+    .card-header {
+        background-image: url(../images/bk-xp.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .card-header__title {
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .btn-link:hover {
+        text-decoration: none;
+    }
+
+    .experience__subtitle {
+        color: #ff4500;
+        font-size: 17px;
+        font-weight: bold
+    }
+
+    .accordion__description {
+        margin: 15px 0;
+    }
+
+    .accordion__description li {
+        margin: 15px 0;
+    }
+
+    .accordion__description__list {
+        font-weight: bold;
+    }
+
+    .accordion__pic {
+        text-align: center;
+    }
+
+    .accordion__pic img {
+        max-width: 100%;
+    }
 
     /* ---------- portfolio part ---------- */
     .portfolio-title {
@@ -858,6 +907,10 @@ body:not(.fab) {
     }
 
     /* ----------- contact part ----------- */
+    .contact-title {
+        padding: 0.938rem 0 2rem;
+    }
+
     .form input,
     .form textarea {
         border-radius: 0.938rem;
@@ -866,4 +919,150 @@ body:not(.fab) {
         -ms-border-radius: 0.938rem;
         -o-border-radius: 0.938rem;
     }
+
+
+}
+
+/* ----------------------------------------------- End 768px version --------------------------------------------- */
+
+/* ----------------------------------------------- 992px version --------------------------------------------- */
+@media (min-width: 992px) {
+    .md-container-page {
+        display: inline-block;
+        margin-left: 33.29%;
+        height: inherit;
+    }
+
+    .mid-screen {
+        justify-content: center;
+    }
+
+    .block-margin {
+        padding: 0 3% 5% 3%;
+    }
+
+    .school-block {
+        margin: 0.938rem 3.438rem;
+    }
+
+    .carousel-item .mobile {
+        display: none !important;
+    }
+
+    .portfolio-title {
+        padding: 0.938rem 0 6rem;
+    }
+
+    .desktop {
+        display: inline-block !important;
+    }
+
+    #message {
+        display: inline-block;
+        font-size: 0.813rem;
+    }
+
+    .contact-title {
+        padding: 0.938rem 0 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .md-container-page {
+
+        margin-left: 25%;
+    }
+
+    .experience-title {
+
+        padding: 0.938rem 0 2.5em;
+    }
+
+    .block-margin {
+        padding: 0 2% 5% 2%;
+    }
+
+    #accordion {
+        padding: 0 5%;
+    }
+
+    .portfolio-title {
+        padding: 0.938rem 0 3rem;
+    }
+
+    .portfolio-title {
+        padding: 0.938rem 0 7rem;
+    }
+
+    .carousel-portfolio {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #carouselExampleCaptions {
+        width: 70%;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .school-block {
+        margin: 3rem 3.438rem 0 3.438rem;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    /* --------------- experience part ------------- */
+    #accordion {
+        padding: 0 15%;
+    }
+
+    /* --------------- portfolio part -------------- */
+    .portfolio-title {
+        padding: 0.938rem 0 4rem;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+    .school-block {
+        margin: 0.938rem 11.438rem;
+    }
+
+    .portfolio-title {
+        padding: 0.938rem 0 2rem;
+    }
+
+}
+
+@media (min-width: 1700px) {
+
+    .portfolio-title {
+        padding: 0.938rem 0 4rem;
+    }
+
+    #carouselExampleCaptions {
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+
+    .portfolio-title {
+        padding: 0.938rem 0 3rem;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+
+    .contact-title {
+        padding: 0.938rem 0 7rem;
+    }
+
 }

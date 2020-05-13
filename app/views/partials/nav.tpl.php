@@ -21,18 +21,26 @@
     <div class="row">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-6 nav-md__links">
-                    <h3>COMPETENCES</h3>
-                </div>
-                <div class="col-md-6 nav-md__links">
-                    <h3>EXPERIENCES</h3>
-                </div>
-                <div class="col-md-6 nav-md__links">
-                    <h3>PORTFOLIO</h3>
-                </div>
-                <div class="col-md-6 nav-md__links">
-                    <h3>DIPLÔMES</h3>
-                </div>
+                <a href="<?= $router->generate('homepage-accueil') ?>" class="col-md-6 nav-md__links">
+                    
+                        <h3>COMPETENCES</h3>
+                    
+                </a>
+                <a href="<?= $router->generate('experience-page') ?>" class="col-md-6 nav-md__links">
+                    
+                        <h3>EXPERIENCES</h3>
+                    
+                </a>
+                <a href="<?= $router->generate('portfolio-page') ?>" class="col-md-6 nav-md__links">
+                    
+                        <h3>PORTFOLIO</h3>
+                    
+                </a>
+                <a href="<?= $router->generate('diplome-page') ?>" class="col-md-6 nav-md__links">
+                    
+                        <h3>DIPLÔMES</h3>
+                
+                </a>
             </div>
         </div>
     </div>

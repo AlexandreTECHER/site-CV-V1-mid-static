@@ -162,7 +162,7 @@
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../public/images/mobile/mk.jpg" class="d-block w-100" alt="MK Energies">
+                                <img src="<?= $_SERVER['BASE_URI']; ?>/images/mobile/mk.jpg" class="d-block w-100" alt="MK Energies">
                                 <div class="carousel-caption d-block caption-smart">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mk">
                                         Description
@@ -181,8 +181,8 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="../public/images/logo/wordpress.png" alt="wordpress">
-                                                            <img src="../public/images/logo/js.png" alt="javascript">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/wordpress.png" alt="wordpress">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/js.png" alt="javascript">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -196,7 +196,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../public/images/mobile/otravel.jpg" class="d-block w-100" alt="otravel">
+                                <img src="<?= $_SERVER['BASE_URI']; ?>/images/mobile/otravel.jpg" class="d-block w-100" alt="otravel">
                                 <div class="carousel-caption d-block caption-smart">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otravel">
                                         Description
@@ -215,10 +215,10 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="../public/images/logo/react.png" alt="react">
-                                                            <img src="../public/images/logo/js.png" alt="react">
-                                                            <img src="../public/images/logo/symfony.png" alt="symfony">
-                                                            <img src="../public/images/logo/php.png" alt="php">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/react.png" alt="react">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/js.png" alt="react">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/symfony.png" alt="symfony">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/php.png" alt="php">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -232,7 +232,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../public/images/mobile/pylot.jpg" class="d-block w-100" alt="pylotsales">
+                                <img src="<?= $_SERVER['BASE_URI']; ?>/images/mobile/pylot.jpg" class="d-block w-100" alt="pylotsales">
                                 <div class="carousel-caption d-block caption-smart">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pylotsales">
                                         Description
@@ -251,8 +251,8 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="../public/images/logo/wordpress.png" alt="wordpress">
-                                                            <img src="../public/images/logo/js.png" alt="javascript">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>c/images/logo/wordpress.png" alt="wordpress">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/js.png" alt="javascript">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -266,7 +266,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../public/images/mobile/sr.jpg" class="d-block w-100" alt="SR-Patrimoine">
+                                <img src="<?= $_SERVER['BASE_URI']; ?>/images/mobile/sr.jpg" class="d-block w-100" alt="SR-Patrimoine">
                                 <div class="carousel-caption d-block caption-smart">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sr">
                                         Description
@@ -285,8 +285,8 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="../public/images/logo/wordpress.png" alt="wordpress">
-                                                            <img src="../public/images/logo/js.png" alt="javascript">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/wordpress.png" alt="wordpress">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/js.png" alt="javascript">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -300,7 +300,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../public/images/mobile/stuff.jpg" class="d-block w-100" alt="stuff-transport">
+                                <img src="<?= $_SERVER['BASE_URI']; ?>/images/mobile/stuff.jpg" class="d-block w-100" alt="stuff-transport">
                                 <div class="carousel-caption d-block caption-smart">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stuff">
                                         Description
@@ -319,8 +319,8 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="../public/images/logo/wordpress.png" alt="wordpress">
-                                                            <img src="../public/images/logo/js.png" alt="javascript">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/wordpress.png" alt="wordpress">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/js.png" alt="javascript">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -334,7 +334,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../public/images/mobile/webmaster.jpg" class="d-block w-100" alt="webmaster-formation">
+                                <img src="<?= $_SERVER['BASE_URI']; ?>/images/mobile/wol.jpg" class="d-block w-100" alt="webmaster-formation">
                                 <div class="carousel-caption d-block caption-smart">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#wf">
                                         Description
@@ -353,7 +353,7 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="../public/images/logo/joomla.png" alt="joomla">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/joomla.png" alt="joomla">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -592,7 +592,7 @@
                                         <div class="col-12 school__infos">
                                             <h4 class="school__title">Gaumont Pathé</h4>
                                             <div class="col-12 school__date">2012-2017</div>
-                                            <div class="col-12 school__diploma">Intégrateur polyvalent</div>
+                                            <div class="col-12 school__diploma">Agent polyvalent</div>
                                         </div>
                                         <div class="col-12 school__infos">
                                             <p class="school__teached"><span class="school__teached--infos">Caissier</span></p>

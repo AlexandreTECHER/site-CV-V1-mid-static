@@ -28,6 +28,8 @@ class MainController {
 
     protected function show($template){
 
+        global $router;
+        
         require_once __DIR__.'../../views/layout/header.tpl.php';
         require_once __DIR__.'../../views/mainPages/'.$template.'.tpl.php';
         require_once __DIR__.'../../views/layout/footer.tpl.php';

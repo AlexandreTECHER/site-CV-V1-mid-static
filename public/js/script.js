@@ -28,8 +28,8 @@ function burgerColor() {
   }
 }
 
-//////////////// burger menu scroll mobile /////////////////
-function burgerScroll() {
+//////////////// progress bar /////////////////
+function progressBar() {
   let containers = document.querySelectorAll(".section");
 
   for (let a = 0; a < containers.length; a++) {
@@ -91,6 +91,11 @@ function clickedLinkMd() {
 window.addEventListener("load", clickedLink);
 window.addEventListener("load", clickedLinkMd);
 window.addEventListener("scroll", burgerColor);
-window.addEventListener("scroll", burgerScroll);
+if(window.innerWidth < 992){
+  window.addEventListener("scroll", progressBar);
+}else if(window.innerWidth >= 992){
+  window.addEventListener("load", progressBar);
+}
+
 window.addEventListener("scroll", upButton);
 

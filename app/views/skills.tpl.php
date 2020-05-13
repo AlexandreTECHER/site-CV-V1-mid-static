@@ -3,8 +3,8 @@
         <p class="skills-title__icon"><i class="fas fa-cog"></i></p>
         <h3 id="competences" class="skills-title__competences">COMPETENCES</h3>
     </div>
-    <div class="row">
-        <div class="col-12 section">
+    <div class="row mid-screen">
+        <div class="col-12 col-lg-5 col-xl-4 section">
             <h4 class="section__title">Développement</h4>
 
             <div class="section__html space">
@@ -44,7 +44,7 @@
                 <div class="section__myBar"></div>
             </div>
         </div>
-        <div class="col-12 section">
+        <div class="col-12 col-lg-5 col-xl-4 section">
             <h4 class="section__title">Framework</h4>
             <div class="section__symfo space">
                 <div class="section__infos">
@@ -89,7 +89,7 @@
                 <div class="section__myBar"></div>
             </div>
         </div>
-        <div class="col-12 section">
+        <div class="col-12 col-lg-5 col-xl-4 section">
             <h4 class="section__title">CMS</h4>
             <div class="section__wp space">
                 <div class="section__infos">
@@ -106,7 +106,7 @@
                 <div class="section__myBar"></div>
             </div>
         </div>
-        <div class="col-12 section">
+        <div class="col-12 col-lg-5 col-xl-4 section">
             <h4 class="section__title">Logiciels</h4>
             <div class="section__compo space">
                 <div class="section__infos">
@@ -130,7 +130,7 @@
                 <div class="section__myBar"></div>
             </div>
         </div>
-        <div class="col-12 section">
+        <div class="col-12 col-lg-5 col-xl-4 section">
             <h4 class="section__title">PAO</h4>
             <div class="section__ps space">
                 <div class="section__infos">
