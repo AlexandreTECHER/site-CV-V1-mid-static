@@ -25,16 +25,16 @@
                                 </div>
                                 <div class="col-md-12 accordion__description">
                                     <ul>
-                                        <li>Développement d’un site responsive, <span class="accordion__description__list">«otravel.ovh»</span></li>
-                                        <li><span class="accordion__description__list">Objectif :</span> Permettre à un utilisateur d’ajouter des points d’intérêts sur une
+                                        <li>Développement d’un site responsive, <span class="accordion__description__list">«otravel.ovh»</span>, projet de fin d'étude</li>
+                                        <li><span class="accordion__description__list">Objectif : </span>Permettre à un utilisateur d’ajouter des points d’intérêts sur une
                                             map en fontion de sa géolocalisation</li>
-                                        <li><span class="accordion__description__list">Fonctionnalités du site:</span> inscription, authentification, géolocalisation, ajout
+                                        <li><span class="accordion__description__list">Fonctionnalités du site : </span>inscription, authentification, géolocalisation, ajout
                                             de point d’intérêt, ajout de photo du lieu, commenter un lieu, modifier ses
                                             données personnelles</li>
-                                        <li><span class="accordion__description__list">Fonctionnement :</span>Récupération des données envoyées au format JSON côté
+                                        <li><span class="accordion__description__list">Fonctionnement : </span>Récupération des données envoyées au format JSON côté
                                             back, comparaison des données reçues avec données en BDD, renvoie de
                                             données au front au format JSON</li>
-                                        <li><span class="accordion__description__list">Mon rôle: </span>lead dev back-end</li>
+                                        <li><span class="accordion__description__list">Mon rôle : </span>lead dev back-end</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-12 accordion__pic">
@@ -50,7 +50,7 @@
                     <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <p class="card-header__title">Tessi Technologie Lyon</p>
+                                <p class="card-header__title">Tessi Technologie Lyon 2019</p>
                             </button>
                         </h2>
                     </div>

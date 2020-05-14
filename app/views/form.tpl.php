@@ -3,6 +3,7 @@
         <p class="contact-title__icon"><i class="fas fa-envelope"></i></p>
         <h3 id="contact" class="contact-title__sub">CONTACT</h3>
     </div>
+
     <div class="row form-block">
         <div class="col-12">
             <div class="form">
@@ -34,7 +35,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <form action="contact.php" method="post">
+                        <form action="" method="post">
                             <div class="row">
                                 <div class="elem-group col-lg-6">
                                     <input type="text" id="name" name="visitor_name" placeholder="Nom" pattern=[A-Z\sa-z]{3,20} required>
@@ -51,6 +52,11 @@
                                 <div class="form-button col-lg-12">
                                     <button type="submit" class="form-button__submit">Envoyer</button>
                                 </div>
+                                <?php if (isset($_SESSION['send'])) {
+                                    echo "<div class='alert alert-success col-md-12' role='alert'>Votre message a bien été envoyé</div>";
+                                    session_destroy();
+                                }
+                                ?>
                             </div>
                         </form>
                     </div>

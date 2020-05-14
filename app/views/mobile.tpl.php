@@ -251,7 +251,7 @@
                                                     <div class="modal-body__technos">
                                                         <p class="">Technologie(s) de développement utilisée(s) :</p>
                                                         <div class="modal-body__technos-pics">
-                                                            <img src="<?= $_SERVER['BASE_URI']; ?>c/images/logo/wordpress.png" alt="wordpress">
+                                                            <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/wordpress.png" alt="wordpress">
                                                             <img src="<?= $_SERVER['BASE_URI']; ?>/images/logo/js.png" alt="javascript">
                                                         </div>
                                                     </div>
@@ -667,7 +667,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <form action="contact.php" method="post">
+                                <form action="" method="post">
                                     <div class="elem-group">
                                         <input type="text" id="name" name="visitor_name" placeholder="Nom" pattern=[A-Z\sa-z]{3,20} required>
                                     </div>
@@ -678,11 +678,16 @@
                                         <input type="email" id="email" name="visitor_email" placeholder="nom@email.com" required>
                                     </div>
                                     <div class="elem-group">
-                                        <textarea id="message" name="visitor_message" placeholder="Votre message" required></textarea>
+                                        <textarea id="messageForm" name="visitor_message" placeholder="Votre message" required></textarea>
                                     </div>
+
                                     <div class="form-button">
                                         <button type="submit" class="form-button__submit">Envoyer</button>
                                     </div>
+                                    <?php if (isset($_SESSION['send'])) {
+                                        echo "<div class='alert alert-success col-md-12' role='alert'>Votre message a bien été envoyé</div>";
+                                        session_destroy();
+                                    } ?>
                                 </form>
                             </div>
 

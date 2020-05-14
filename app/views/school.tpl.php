@@ -1,4 +1,3 @@
-
 <div class="row block-margin">
     <div class="col-12">
         <div class="row">
@@ -52,7 +51,7 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="row">
                             <div class="card-body">
-                                
+
                                 <div class="col-md-12 accordion__description">
                                     <ul>
                                         <li>Apprentissage et consolidation des connaissances des outils de développement web</li>
@@ -141,7 +140,7 @@
                                 </div>
                                 <div class="col-md-12 accordion__description">
                                     <ul>
-                                        <li>Le BTS MUC (anciennement BTS Action Commerciale) forme ainsi à toutes les techniques de vente et de management, qui seront employées par la suite dans la gestion des unités commerciales dans le but de développer l’activité de l’entreprise pour laquelle vous travaillerez./li>
+                                        <li>Le BTS MUC (anciennement BTS Action Commerciale) forme ainsi à toutes les techniques de vente et de management, qui seront employées par la suite dans la gestion des unités commerciales dans le but de développer l’activité de l’entreprise pour laquelle vous travaillerez</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-12 accordion__pic">

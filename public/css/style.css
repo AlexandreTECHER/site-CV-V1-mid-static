@@ -3,7 +3,7 @@ html {
 }
 
 body:not(.fab) {
-    font-family: 'sans-serif';
+    font-family: sans-serif;
     background: #272b30;
 }
 
@@ -845,6 +845,10 @@ body:not(.fab) {
     }
 
     /* ----- experience configuration ----- */
+    .btn-link {
+        text-decoration: none !important;
+    }
+
     .block-margin {
         padding: 0 5% 5% 5%;
     }
@@ -1003,7 +1007,6 @@ body:not(.fab) {
     #carouselExampleCaptions {
         width: 70%;
         text-align: center;
-        margin-top: 10%;
     }
 
     .school-block {
@@ -1033,6 +1036,11 @@ body:not(.fab) {
 
     .portfolio-title {
         padding: 0.938rem 0 2rem;
+    }
+
+    #carouselExampleCaptions {
+
+        margin-top: 5%;
     }
 
 }

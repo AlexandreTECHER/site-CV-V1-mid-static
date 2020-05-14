@@ -1,11 +1,9 @@
+<IfModule mod_rewrite.c>
 RewriteEngine On
-
-# dynamically setup base URI
-RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
-RewriteRule ^(.*) - [E=BASE_URI:%1]
-
-# redirect every request to index.php
-# and give the relative URL in "_url" GET param
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php?_url=/$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+AddType x-mapp-php5 .php
+AddHandler x-mapp-php5 .php
